@@ -69,3 +69,7 @@ A single locker is create each time.
 ```  "pass_code" : "61601b25d62f6be89f91ee76a2cf34d6"``` => This is the code which used by the receiver
 
 ```  "url_set": [...] ``` => URLs of the secret files
+
+![alt tag](https://github.com/rpgeeganage/web-pizza-file-share/blob/master/how-to.jpg)
+
+
