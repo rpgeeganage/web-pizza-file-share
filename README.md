@@ -5,18 +5,20 @@ This is similar to Onion Share (https://onionshare.org/). The difference is the 
 * Install latest ```NodeJS``` (https://nodejs.org/)
 * Download the latest build from https://github.com/rpgeeganage/web-pizza-file-share
 
-##### Using app
+##### TOR browser
+* Download ```TOR``` from https://www.torproject.org/download/download-easy.html.en
+* Set up the Hidden service as mentioned in https://www.torproject.org/docs/tor-hidden-service.html.en or http://www.makeuseof.com/tag/create-hidden-service-tor-site-set-anonymous-website-server/
+* Set the hidden service local server as ```127.0.0.1:<port of the server component>```. 
+> eg: 127.0.0.1:8483
+
+
+## Using app
 ###### Linux/Ubuntu users
 * Execute the script ```run.sh```
 
 ###### Windows users
 * For Client app, excute ```client.bat```
 * For Server app, excute ```server.bat```
-
-##### TOR browser
-* Download ```TOR``` from https://www.torproject.org/download/download-easy.html.en
-* Set up the Hidden service as mentioned in https://www.torproject.org/docs/tor-hidden-service.html.en or http://www.makeuseof.com/tag/create-hidden-service-tor-site-set-anonymous-website-server/
-* Set the hidden service local server as ```127.0.0.1:<port of the server component>```. eg: 127.0.0.1:8483
 
 ##### Configuration
 The configueration file is located at ```config/config.json```
@@ -59,6 +61,6 @@ Sample locker file.
 }
 ```
 
-```  "pass_code" : ""61601b25d62f6be89f91ee76a2cf34d6"``` => This is the code which used by the receiver
+```  "pass_code" : "61601b25d62f6be89f91ee76a2cf34d6"``` => This is the code which used by the receiver
 
 ```  "url_set": [...] ``` => URLs of the secret files
