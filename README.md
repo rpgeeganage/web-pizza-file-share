@@ -29,7 +29,7 @@ The configueration file is located at ```config/config.json```
   "private_map_file_locket" : "../locket",
   "tor" :  {
     "enabled" : false, 
-    "port" : "9050" -> TOR SOCKS5 port
+    "port" : "9050" 
   }
 }
 ````
@@ -42,6 +42,7 @@ The configueration file is located at ```config/config.json```
 
 ``` "enabled" : false``` => Change to True to use TOR for remote file download
 
+``` "port" : "9050"``` => TOR SOCKS port
 ### Locker file
 A single locker is create each time.
 ## ```Important``` Please Store the locker files in a secure place.
