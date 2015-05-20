@@ -53,7 +53,7 @@ The configueration file is located at ```config/config.json```
 A single locker is create each time.
 ### ```Important``` Please Store the locker files in a secure place.
 ##### Locker file format 
-Sample locker file.
+> Sample locker file.
 
 ```json
 {
