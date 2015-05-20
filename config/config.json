@@ -1,0 +1,10 @@
+{
+  "online_server_port" : "8483",
+  "client_port" : "9800",
+  "private_map_file_locket" : "../locket",
+  "tor" : {
+    "enabled" : false,
+    "host" : "localhost",
+    "port" : "9050"
+  }
+}

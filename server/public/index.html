@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/my.css" rel="stylesheet">
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/js/jq.js"></script>
+        <script src="/js/my.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <title>Web Pizza Advanced</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="center-text">
+                        <h2>
+                            <span class="label label-info">Web Pizza File Transfer Component</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form-group">
+                            <p>&nbsp;</p>
+                            <div class="input-group">
+                                <div class="input-group-addon">*</div>
+                                <input type="password" class="form-control" id="passCodeTxt" placeholder="Please enter the pass code" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary btn-lg" id="go">Go</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div id="resultBox">
+                            <div class="form-group has-success has-feedback" id="successRow">
+                                <div class="alert alert-success" role="alert">
+                                    Downloading will initiate now....
+                                </div>
+
+                            </div>
+                            <div class="form-group has-error has-feedback"  id="errorRow">
+                                <div class="form-group has-error has-feedback">
+                                    <label class="control-label" for="inputError">Following error occurred</label>
+                                    <input readonly type="text" class="form-control" id="inputError" aria-describedby="inputErrorStatus">
+                                    <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                                    <span id="inputErrorStatus" class="sr-only">(error)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
