@@ -9,6 +9,7 @@ This is similar to Onion Share (https://onionshare.org/). The difference is the 
 * Download ```TOR``` from https://www.torproject.org/download/download-easy.html.en
 * Set up the Hidden service as mentioned in https://www.torproject.org/docs/tor-hidden-service.html.en or http://www.makeuseof.com/tag/create-hidden-service-tor-site-set-anonymous-website-server/
 * Set the hidden service local server as ```127.0.0.1:<port of the server component>```. 
+
 > eg: 127.0.0.1:8483
 
 
