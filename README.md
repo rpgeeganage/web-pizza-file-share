@@ -49,9 +49,9 @@ The configueration file is located at ```config/config.json```
 ``` "enabled" : false``` => Change to True to use TOR for remote file download
 
 ``` "port" : "9050"``` => TOR SOCKS port
-### Locker file
+## Locker file
 A single locker is create each time.
-## ```Important``` Please Store the locker files in a secure place.
+### ```Important``` Please Store the locker files in a secure place.
 ##### Locker file format 
 Sample locker file.
 
