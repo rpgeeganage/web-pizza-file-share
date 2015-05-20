@@ -21,16 +21,43 @@ This is similar to Onion Share (https://onionshare.org/). The difference is the 
 ##### Configuration
 The configueration file is located at ```config/config.json```
 > Default config file : 
+
 ```json
 {
-  "online_server_port" : "8483", -> Server port
-  "client_port" : "9800", -> Client port
-  "private_map_file_locket" : "../locket", -> locket folder path
+  "online_server_port" : "8483",
+  "client_port" : "9800",
+  "private_map_file_locket" : "../locket",
   "tor" :  {
-    "enabled" : false, -> Change to true to use TOR for communication
+    "enabled" : false, 
     "port" : "9050" -> TOR SOCKS5 port
   }
 }
 ````
 
-#### Configuration
+```  "online_server_port" : "8483"``` => Server port
+
+```  "client_port" : "9800"``` => Client port
+
+```  "private_map_file_locket" : "../locket"``` => locket folder path
+
+``` "enabled" : false``` => Change to True to use TOR for remote file download
+
+### Locker file
+A single locker is create each time.
+## ```Important``` Please Store the locker files in a secure place.
+##### Locker file format 
+Sample locker file.
+
+```json
+{
+    "pass_code":"61601b25d62f6be89f91ee76a2cf34d6",
+    "url_set":[
+        "http://filestorage.com/mysecret/my-secret-file-01.pdf",
+        "http://filestorage.com/mysecret/my-secret-file-02.pdf"
+    ]
+}
+```
+
+```  "pass_code" : ""61601b25d62f6be89f91ee76a2cf34d6"``` => This is the code which used by the receiver
+
+```  "url_set": [...] ``` => URLs of the secret files
